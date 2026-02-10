@@ -20,4 +20,3 @@ for index, filename in enumerate(files):
         os.rename(old_path, new_path)
         
 print("Remaining completed successfully!")
-    
