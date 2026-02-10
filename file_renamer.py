@@ -8,6 +8,7 @@ files = os.listdir(folder_path)
 for index, filename in enumerate(files):
     old_path = os.path.join(folder_path, filename)
     
+    #Get file extension (.jpg .png etc)
     extension = os.path.splitext(filename)[1]
     
     #New File Name
